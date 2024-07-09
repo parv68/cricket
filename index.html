@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket team cards</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Team stats</h1>
+    <main>
+      <div class="team-stats">
+        <p>Team: <span id="team"></span></p>
+        <p>Sport: <span id="sport"></span></p>
+        <p>World Cup: <span id="year"></span></p>
+        <p>Head coach: <span id="head-coach"></span></p>
+      </div>
+      <label class="options-label" for="teams">Select Team:</label>
+      <select name="teams" id="teams">
+        <option value="India">India</option>
+        <option value="Australia">Australia</option>
+        <option value="England">England</option>
+      </select>
+      <label class="options-label" for="players">Filter Teammates:</label>
+      <select name="players" id="players">
+        <option value="all">All Players</option>
+        <option value="nickname">Nicknames</option>
+        <option value="opner">Position Opner</option>
+        <option value="batsman">Position Batsman</option>
+        <option value="wicketkeeper">Position Wicketkeeper</option>
+        <option value="all-rounder">Position All Rounder</option>
+        <option value="bowler">Position Bowler</option>
+      </select>
+      <div class="cards" id="player-cards">
+        <div class="player-card">
+            
+        </div>
+        
+      </div>
+    </main>
+    <footer>&copy; Parv</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
